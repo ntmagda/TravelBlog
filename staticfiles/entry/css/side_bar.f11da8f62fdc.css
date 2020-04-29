@@ -1,0 +1,40 @@
+
+#sidebar{
+    padding-top: 30px;
+}
+
+ul{
+   list-style-type: none;
+}
+
+li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.small-tip{
+    text-transform: none;
+}
+.headline{
+    text-align: left;
+    font-family: 'Noticia Text', Georgia;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.tags {
+    text-align: left;
+    font-family: 'Noticia Text', Georgia;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.tags a {
+    text-decoration: none;
+    color:black;
+}
+.tags a:hover{
+    text-decoration: none;
+    color:black;
+}

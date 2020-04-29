@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load django_markdown %}
+<html lang="en">
+<head>
+	<title>Polish-German climbing team</title>
+	<meta charset="utf-8">
+	<meta name="author" content="ntmagda">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static '/main/css/style2.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "{% static '/main/js/slideshow.js' %}"></script>
+</head>
+<body>
+{% block content %}
+{% endblock %}
+<div id="footer">
+    Created by Magda Nowak-Trzos
+</div>
+</body>
+</html>

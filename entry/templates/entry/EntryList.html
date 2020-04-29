@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% extends 'main/base.html' %}
+<style>
+.row{
+    overflow: hidden;
+}
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+</style>
+{% load django_markdown %}
+{% load staticfiles %}
+{% block content %}
+{% include 'main/main_menu.html' %}
+        <link rel="stylesheet" type="text/css" href="{% static '/entry/css/entry_list.css' %}">
+        <div class="container">
+        <div class="row">
+            <div class = "col-sm-9" id="list">
+            {% for object in object_list %}
+                <div class="post">
+                    <div class="title">
+                        <a href="{% url 'main:entry:entry-detail' object.slug %}">{{ object.title|safe }}</a>
+                    </div>
+                    <div class ="info">
+                        <span class="date">created on {{ object.created|date:'d.m.Y'}}</span>
+                        <span class = "author">
+                            by <a href = "{% url 'main:aboutus' %}">{{ object.author|safe }}</a>
+                        </span>
+                    </div>
+                    <div class = "image">
+                        <a href="{% url 'main:entry:entry-detail' object.slug %}" class="img-thumbnai1">
+                            <img class = "post-image" src="{{ object.title_image.url }}"/>
+                        </a>
+                    </div>
+
+                    <div id="short-body" class ="text">
+                        {{object.short_body|markdown|truncatewords:50 }}
+                    </div>
+                    <div class="read-more"><a href="{% url 'main:entry:entry-detail' object.slug %}">Read more</a></div>
+                </div>
+            {% endfor %}
+            <div class = "pag">
+           {% if is_paginated %}
+                  <ul class="pagination">
+                    {% if page_obj.has_previous %}
+                        <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                    {% else %}
+                        <li class="disabled"><span>&laquo;</span></li>
+                    {% endif %}
+                    {% for i in paginator.page_range %}
+                      {% if page_obj.number == i %}
+                        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                      {% else %}
+                        <li><a href="?page={{ i }}">{{ i }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    {% if page_obj.has_next %}
+                      <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                    {% else %}
+                      <li class="disabled"><span>&raquo;</span></li>
+                    {% endif %}
+                  </ul>
+            {% endif %}
+        </div>
+            </div>
+            <div class="col-sm-3">
+                {% include 'entry/sidebar_entrylist.html' %}
+            </div>
+        </div>
+        </div>
+{% endblock %}

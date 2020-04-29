@@ -1,0 +1,40 @@
+{% extends 'main/base.html' %}
+{% load django_markdown %}
+{% load staticfiles %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static '/main/css/main_sections2.css' %}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="{% static '/entry/css/entry_list.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<script>
+$(document).ready(function(){
+  $(".know_more").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+{% include 'main/main_menu.html'%}
+       <div class="container-fluid bg-1 text-center" >
+            <div class="row" id="section_top_content" style="width: 100vw; height: 100vh">
+                <div class="col-sm-12"><span id="P-G" style="background-color: black"> Polish - German <br>climbing team<br><br> </span>
+                    <span style="font-size: 4vh"> we are in India </span>
+                </div>
+            </div>
+                <div id="know_more">
+                    <a href="#section_bottom" class ="know_more" >Find out more</a>
+                </div>
+       </div>
+    <div class ="container bg-2 text-center" id ="section_bottom">
+        {% include "main/section_bottom.html" with object=object_list|first  %}
+    </div>
+{% endblock %}

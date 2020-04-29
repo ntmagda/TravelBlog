@@ -1,0 +1,30 @@
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+}
+#social ul li{
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+#main_menu ul li a {
+    padding-top: 23px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+}
+
+#main_menu li{
+    margin: 0 10px;
+}

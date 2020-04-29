@@ -155,9 +155,9 @@ MEDIA_URL = '/media/'
 
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'hsnlz15ri',
-    'API_KEY': '129481469995168',
-    'API_SECRET': 'ZkqQuM6coiEowBTr7Lz5jlLE1ts',
+    'CLOUD_NAME': 'hdjogi6jt',
+    'API_KEY': '456567388777511',
+    'API_SECRET': 'SaR0RQyu9orcC7_Pfot7Ql2jPgE',
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 

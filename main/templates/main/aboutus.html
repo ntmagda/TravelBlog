@@ -1,6 +1,7 @@
 {% extends 'main/base.html' %}
 {% block content %}
 {% load staticfiles %}
+{% load cloudinary %}
     {% include 'main/main_menu.html'%}
     {% for object in object_list.all %}
     <link rel="stylesheet" type="text/css" href="{% static '/entry/css/entry_list.css' %}">
@@ -14,12 +15,16 @@
                     <div class = "row">
                         <div class ="col-sm-6">
                             <span class="img-thumbnai1">
-                                <img class = "post-image" src="{{ object.leon_image.url }}"/>
+{#                                <img class = "post-image" src="{{ object.leon_image.url }}"/>#}
+                                   {% cloudinary object.leon_image class="post-image" format="jpg" quality="80"%}
+
                             </span>
                         </div>
                         <div class ="col-sm-6">
                             <span class="img-thumbnai1">
-                                <img class = "post-image" src="{{ object.magda_image.url }}"/>
+{#                                <img class = "post-image" src="{{ object.magda_image.url }}"/>#}
+                                {% cloudinary object.magda_image class="post-image" format="jpg" quality="80"%}
+
                             </span>
                         </div>
                     </div>

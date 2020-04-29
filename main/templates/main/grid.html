@@ -13,7 +13,7 @@
                     <a href="{% url "main:entry:articles-country" slug_country=object.slug %}">
                         <div>
 {#                        <img class = "image" src="{{ object.image.url }}"/>#}
-                        {% cloudinary object.image format="jpg" quality="80"%}
+                        {% cloudinary object.image class="image" format="jpg" quality="80" %}
 
                         <p class="img_description text"><span>{{ object.name }}</span></p>
                         </div>

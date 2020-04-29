@@ -1,6 +1,7 @@
 {% extends 'main/base.html' %}
 {% block content %}
 {% load staticfiles %}
+{% load cloudinary %}
     {% include 'main/main_menu.html'%}
     <link rel="stylesheet" type="text/css" href="{% static '/entry/css/entry_list.css' %}">
         <div class="container">
@@ -21,7 +22,9 @@
                  </a>
                 <div class = "image">
                     <a href="{% url 'main:entry:entry-detail' object.slug %}" class="img-thumbnai1">
-                        <img class = "post-image" src="{{ object.title_image.url }}"/>
+                        {% cloudinary object.title_image class="post-image" format="jpg" quality="80"%}
+
+{#                        <img class = "post-image" src="{{ object.title_image.url }}"/>#}
                     </a>
                 </div>
                 <div id="short-body" class ="text">

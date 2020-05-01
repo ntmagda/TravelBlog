@@ -1,6 +1,7 @@
 {% extends 'entry/Entry.html' %}
-{%  load staticfiles %}
-{% load cloudinary %}
+{% load staticfiles %}
+{% load embed_video_tags %}
+{% load thumbnail %}
 {% block article %}
 <div class="post-item">
     <div class="title">
@@ -12,20 +13,31 @@
             by <a href = "{% url 'main:aboutus' %}">{{ object.author|safe }}</a>
         </span>
     </div>
-    <div class = "image">
+    {% if object.entry_video %}
+        {% video object.entry_video as my_video %}
+            <div class="intrinsic-container intrinsic-container-16x9">
+                <iframe
+                src="{{ my_video.url }}?portrait=0&amp;color=ff0179&amp;" frameborder="0" allowFullScreen>
+                </iframe>
+            </div>
+        {% endvideo %}
+        {% else %}
+        <div class = "image">
         <a href="{% url 'main:entry:entry-detail' object.slug %}" class="img-thumbnai1">
-            {% cloudinary object.title_image class="post-image" format="jpg" quality="80" %}
-{#            <img class = "post-image" src="{{ object.title_image.url }}"/>#}
+            <img class = "post-image" src="{{ object.title_image.url }}"/>
         </a>
     </div>
+    {% endif %}
     <div id="short-body" class ="text">
         {{object.short_body}}
     </div>
     <div id="slideshow">
-    {% include 'main/slideshow.html' %}
+    {% include 'main/slideshow.html' %}2
     </div>
+
     <div id="post-body" class="text">
     {{object.body|safe}}
     </div>
 </div>
 {% endblock %}
+

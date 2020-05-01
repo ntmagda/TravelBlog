@@ -9,7 +9,7 @@ from cloudinary.models import CloudinaryField
 
 class Country(models.Model):
     name = models.CharField(max_length=300)
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', null=True)
 
     # image = models.ImageField(upload_to='countries/', null=True)
     slug = models.SlugField(max_length=200, unique=True)
@@ -36,10 +36,10 @@ class EntryInteface(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
     # title_image = models.ImageField(upload_to='images/%Y/%m/%d', null=True)
-    title_image = CloudinaryField('title_image')
-
+    title_image = CloudinaryField('title_image', null=True)
     body = RichTextUploadingField()
     country = models.ForeignKey(Country, related_name="country", null=True)
+    entry_video = EmbedVideoField(null=True, blank=True)
 
     class Meta:
         ordering = ['-created', ]
@@ -57,7 +57,7 @@ class Entry(EntryInteface):
 class EntryImage(models.Model):
     property = models.ForeignKey(Entry, related_name='images')
     # image = models.ImageField(upload_to='images/%Y/%m/%d', null=True)
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', null=True)
 
 
 class EntryVideo(models.Model):

@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib import admin
 
-from .models import Entry, EntryImage, EntryTipFullArticle, EntrySmallTip, Country
+from .models import Entry, EntryImage, EntryVideo, EntryTipFullArticle, EntrySmallTip, Country
 
 class CountryAdmin(admin.ModelAdmin):
     model = Country
@@ -13,13 +13,18 @@ class EntryImageInline(admin.TabularInline):
     model = EntryImage
     extra = 3
 
+
+class EntryVideoInline(admin.TabularInline):
+    model = EntryVideo
+    extra = 1
+
 class EntryTipInline(admin.TabularInline):
     model = EntrySmallTip
     extra = 3
 
 
 class EntryAdmin(admin.ModelAdmin):
-    inlines = [EntryImageInline, EntryTipInline, ]
+    inlines = [EntryImageInline, EntryVideoInline, EntryTipInline, ]
     list_display = ['title', 'short_body','slug','get_tags']
 
     def get_tags(self, entry):

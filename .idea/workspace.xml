@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa3d8e5-d37b-4aeb-9c08-696f858ed6b4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/main_menu2.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main_menu2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/main_sections.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main_sections.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/main_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="EntryList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="154">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -69,35 +67,26 @@
       <file leaf-file-name="EntryDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_sections.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/static/main/css/main_sections.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="102" column="38" lean-forward="true" selection-start-line="99" selection-end-line="102" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entry_list.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="entry_list.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entry/static/entry/css/entry_list.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_menu2.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_menu2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/main/css/main_menu2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="324">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -114,10 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isCl</find>
-      <find>isClim</find>
-      <find>BASE_DIR</find>
-      <find>object</find>
       <find>CLOUDINARY</find>
       <find>DEB</find>
       <find>de</find>
@@ -143,6 +128,10 @@
       <find>Image2</find>
       <find>P-</find>
       <find>navba</find>
+      <find>css</find>
+      <find>post</find>
+      <find>title</find>
+      <find>container</find>
       <find>Image2Image2</find>
     </findStrings>
   </component>
@@ -175,13 +164,13 @@
         <option value="$PROJECT_DIR$/entry/admin.py" />
         <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/entry/models.py" />
-        <option value="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" />
         <option value="$PROJECT_DIR$/main/static/main/css/style2.css" />
         <option value="$PROJECT_DIR$/entry/templates/entry/EntryDetails.html" />
         <option value="$PROJECT_DIR$/main/templates/main/main_index.html" />
         <option value="$PROJECT_DIR$/main/static/main/css/main_sections.css" />
         <option value="$PROJECT_DIR$/main/templates/main/main_menu.html" />
         <option value="$PROJECT_DIR$/main/static/main/css/main_menu2.css" />
+        <option value="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" />
       </list>
     </option>
   </component>
@@ -542,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entry/templates/entry/Entry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -570,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry/static/entry/css/entry_list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/main/css/main_sections.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -584,10 +559,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryDetails.html">
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/main_menu2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="324">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -598,10 +580,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/main_menu2.css">
+    <entry file="file://$PROJECT_DIR$/entry/templates/entry/EntryDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry/static/entry/css/entry_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>

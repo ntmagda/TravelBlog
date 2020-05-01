@@ -21,6 +21,6 @@ class ContactView(generic.TemplateView):
 
 
 class CountriesView(generic.ListView):
-    template_name = "main/grid.html"
+    template_name = "main/countries.html"
     queryset = models.Country.objects.all()
 

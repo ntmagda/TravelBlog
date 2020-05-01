@@ -57,6 +57,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 414px) {
+    #know_more{
+        bottom: 80px
+    }
+}
+
+
 .know_more:after {
 	content: '';
 	position: absolute;

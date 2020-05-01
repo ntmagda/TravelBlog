@@ -102,12 +102,13 @@
 
 @media screen and (max-width: 414px) {
     .bg-1 {
-        background-image: url("../../images/background/mobile_background.JPG");
+        background-image: url("../../images/background/mobilebackground.jpg");
         /*background-color:black;*/
         background-repeat: no-repeat;
         /*background-size: 100px;*/
     }
-    #P-G {
-        font-size: smaller;
-    }
+    /*}*/
+    /*#P-G {*/
+        /*font-size: smaller;*/
+    /*}*/
 }

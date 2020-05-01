@@ -73,6 +73,10 @@
     text-decoration: none;
 }
 
+#section_bottom{
+    padding-top: 50px;
+}
+
 
 #section_top_content{
     position: absolute;

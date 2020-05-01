@@ -97,3 +97,10 @@
     text-decoration: double;
     opacity: 0.83;
 }
+
+/* respopnsive background color change*/
+@media only screen and (min-device-width: 400px) {
+  .bg-1 {
+      background-color: black;
+  }
+}

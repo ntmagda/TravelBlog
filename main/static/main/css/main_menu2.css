@@ -11,7 +11,7 @@
 #social ul li{
     display: inline-block;
     float: none;
-}
+ }
 
 .navbar .navbar-collapse {
     text-align: center;
@@ -28,3 +28,7 @@
 #main_menu li{
     margin: 0 10px;
 }
+
+#insta_icon {
+        margin-left: 7px;
+    }

@@ -21,7 +21,7 @@
     padding-top: 23px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 23px;
+    font-size: 2rem;
 }
 
 #main_menu li{
@@ -29,6 +29,12 @@
 }
 
 #insta_icon {
+        margin-left: 7px;
+    }
+
+@media screen and (max-width: 414px){
+    #insta_icon {
         margin-top: -7px;
         margin-left: 7px;
     }
+}

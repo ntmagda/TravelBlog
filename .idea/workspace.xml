@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa3d8e5-d37b-4aeb-9c08-696f858ed6b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/countires.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/countires.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/main/css/main_menu2.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main_menu2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/css/main_sections.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/main_sections.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,26 +22,42 @@
       <file leaf-file-name="main_menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/main/main_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="19" column="66" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_sections.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_sections.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/main/css/main_sections.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_menu2.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="slideshow.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/static/main/css/slideshow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry_list.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entry/static/entry/css/entry_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_menu2.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/static/main/css/main_menu2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -56,8 +74,8 @@
       <file leaf-file-name="countires.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/main/css/countires.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-end-line="96" />
+            <state relative-caret-position="204">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -101,6 +119,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>ima</find>
+      <find>imag</find>
       <find>img</find>
       <find>clou</find>
       <find>cl</find>
@@ -126,11 +146,9 @@
       <find>vo</find>
       <find>Image2Image2</find>
       <find>im</find>
-      <find>col</find>
       <find>navbar-toggle</find>
-      <find>section_top_content</find>
-      <find>med</find>
       <find>navbar</find>
+      <find>col</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,11 +183,11 @@
         <option value="$PROJECT_DIR$/main/static/main/css/style2.css" />
         <option value="$PROJECT_DIR$/entry/templates/entry/EntryDetails.html" />
         <option value="$PROJECT_DIR$/main/templates/main/main_index.html" />
+        <option value="$PROJECT_DIR$/main/static/main/css/main_sections.css" />
         <option value="$PROJECT_DIR$/main/templates/main/main_menu.html" />
         <option value="$PROJECT_DIR$/main/static/main/css/countires.css" />
         <option value="$PROJECT_DIR$/entry/static/entry/css/entry_list.css" />
         <option value="$PROJECT_DIR$/main/static/main/css/main_menu2.css" />
-        <option value="$PROJECT_DIR$/main/static/main/css/main_sections.css" />
       </list>
     </option>
   </component>
@@ -572,6 +590,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/main/countries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entry/static/entry/css/entry_list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -586,16 +611,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/main/main_menu.html">
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/countires.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/slideshow.css">
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/main_sections.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
+        <state relative-caret-position="120">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/main/css/style2.css">
@@ -605,31 +632,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/main/countries.html">
+    <entry file="file://$PROJECT_DIR$/main/static/main/css/slideshow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
+        <state relative-caret-position="-30" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/countires.css">
+    <entry file="file://$PROJECT_DIR$/main/templates/main/main_menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-end-line="96" />
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/main/css/main_menu2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/main/css/main_sections.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>

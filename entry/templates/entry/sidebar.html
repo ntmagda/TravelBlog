@@ -12,11 +12,5 @@
                         <li class="small-tip">{{ tip.tip }}</li>
                 {% endfor %}
             </ul>
-            <h3 class="headline">Might be useful to know</h3>
-            <ul >
-                {% for tip_full in object.tip_full_article.all %}
-                    <li><a href="{% url 'main:entry:entry-tip' tip_full.slug %}">{{ tip_full}}</a></li>
-                {% endfor %}
-            </ul>
         </div>
     </div>

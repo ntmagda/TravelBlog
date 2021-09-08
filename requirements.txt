@@ -14,7 +14,7 @@ gunicorn==20.0.4
 idna==2.9
 Markdown==3.2.1
 olefile==0.46
-Pillow==8.1.1
+Pillow==8.3.2
 psycopg2==2.8.5
 pytz==2019.3
 requests==2.23.0
